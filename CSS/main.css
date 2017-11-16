@@ -1,0 +1,90 @@
+#boxes {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 500px;
+    height: 400px;
+}
+#HEX {
+    text-align: center;
+    vertical-align: middle;
+
+}
+#RGB {
+    padding-top: 100px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+input {
+    width: 300px;
+    height: 40px;
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px white dotted;
+    color: #e6e6e6;
+    font-size: 32px;
+    font-weight: lighter;
+}
+input:focus{
+    outline-width: 0px;
+    border-bottom: 1px white solid;
+}
+body {
+    background-color: #222222;
+}
+
+#reset-button {
+    border: 1px white solid;
+    background-color: #222;
+    color: #e6e6e6;
+    width: 50px;
+    height: 25px;
+    position: absolute;
+    margin: auto;
+    top: 100px;
+    left: -125px;
+    right: 0;
+    bottom: 0;
+}
+#script-switch{
+    border: 1px white solid;
+    background-color: #222;
+    color: #e6e6e6;
+    height: 25px;
+    width: 100px;
+    position: absolute;
+    margin: auto;
+    top: 100px;
+    left: 125px;
+    right: 0;
+    bottom: 0;
+    float: right;
+}
+
+#reset-button:hover {
+    background-color: #e6e6e6;
+    color: #222;
+}
+#script-switch:hover {
+    background-color: #e6e6e6;
+    color: #222;
+}
+
+
+.light input {
+  color: #111!important;
+  border-bottom: 1px black dotted!important;
+}
+
+.light input:focus {
+    border-bottom: 1px black solid!important;
+}
+
+.dark input:focus {
+    border-bottom: 1px white solid!important;
+}
+
