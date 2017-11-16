@@ -1,0 +1,26 @@
+<!DOCTYPE = html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="JS/jquery.colourBrightness.js"></script>
+  <script>
+  $(document).ready(function(){
+      setInterval(function() {
+    $('body').colourBrightness();
+          },100);
+  });
+  </script>
+  <title>Bugs + Upcoming Features</title>
+  <link rel="stylesheet" href="CSS/main.css"/>
+</head>
+<body>
+  <p>Bugs + Features:</p>
+  <ul style="list-style-type: circle;">
+  <li>There is a delay for the colors to update</li>
+  <li>If hex value is 4 characters, RGBa will be used (need to disable or add an option to toggle)</li>
+  <li>Ability to switch between scripts (Might just add a whole new html file for it)</li>
+  <li>RARE: NaN will appear -> tried to fix but might still come up</li>
+  </ul>
+
+</body>
+</html>
