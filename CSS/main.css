@@ -74,6 +74,18 @@ body {
     color: #222;
 }
 
+.dark  {
+  color: #e6e6e6!important;
+}
+
+.light  {
+  color: #111!important;
+}
+
+.dark input {
+  color: #e6e6e6!important;
+  border-bottom: 1px white dotted!important;
+}
 
 .light input {
   color: #111!important;
